@@ -1,6 +1,6 @@
 require 'singleton'
 
-class Logger
+class Dogger
   include Singleton
   def initialize
     @f = File.open 'log.text', 'a'
@@ -13,6 +13,6 @@ class Logger
 
 end
 
-Logger.instance.log_something 'lesson 49'
+Dogger.instance.log_something 'lesson 49'
 
 
