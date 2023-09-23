@@ -11,3 +11,5 @@ def likes(names)
     "#{names[0]}, #{names[1]} and #{names.length - 2} others like this"
   end
 end
+
+likes("Glen")
